@@ -67,13 +67,27 @@
                                 <ul class="navigation">
                                     <li class="navigation__item">
                                         <a href="https://baidu.com/" target="_blank" class="blog-button">
-                                            <div>Test 1</div>
+                                            <div>百度</div>
                                         </a>
                                     </li>
-                                    
                                     <li class="navigation__item">
-                                        <a href="https://google.com/" class="blog-button">
-                                            <div>Test 2</div><!--不带target，本页跳转-->
+                                        <a href="https://google.com/" target="_blank" class="blog-button">
+                                            <div>Google</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.boce.com/" target="_blank" class="blog-button">
+                                            <div>拨测</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.beijing-time.org/shijianchuo/" target="_blank" class="blog-button">
+                                            <div>时间戳转换</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="http://cc2.top/" class="blog-button">
+                                            <div>© CC</div><!--不带target，本页跳转-->
                                         </a>
                                     </li>
                                 </ul>
@@ -90,11 +104,23 @@
                                         </a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="mailto:ccios@qq.com" title="Email">
+                                        <a onclick="weixin()" title="User" target="_blank">
                                             <i class="fas fa-envelope"></i>
-                                            <span class="label">Email</span>
+                                            <script>
+                                                function weixin() {
+                                                    Swal.fire({
+                                                        title: "请不要乱点",
+                                                        text: "～～～",
+                                                        confirmButtonText: "好的",
+                                                        imageUrl: "./images/weixin.png",
+                                                        imageWidth: 150,
+                                                        imageHeight: 150
+                                                    })
+                                                }
+                                            </script>
                                         </a>
                                     </li>
+
                                 </ul>
                             </nav>
                         </div>
