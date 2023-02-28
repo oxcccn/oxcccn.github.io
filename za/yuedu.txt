@@ -1,0 +1,11 @@
+#host-suffix, api.boxinli.biz, proxy
+
+#host-suffix, api.us01zh.top, proxy
+
+#host-suffix, erd.nsxiaoshuo.top, proxy
+
+host-suffix, ip.ws.126.net, proxy
+
+host-suffix, image.yundaigame.com, proxy
+
+#host-suffix, red.yjgvip.top, proxy

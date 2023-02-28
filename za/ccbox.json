@@ -1,0 +1,45 @@
+{
+  "id": "cc",
+  "name": "cc应用订阅",
+  "author": "@cc",
+  "icon": "",
+  "repo": "http://cc",
+  "apps": [{
+    "id": "tfbInfo",
+    "name": "tfbInfo",
+    "keys": ["tfbInfo"],
+    "author": "@cc",
+    "settings": [{
+            "id": "tfbInfo",
+            "name": "tfbInfo",
+            "val": "",
+            "type": "string",
+            "desc": ""
+        }],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/dyjsb.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
+    }, {
+      "id": "aiguang",
+  "name": "爱逛",
+  "keys": ["agbd","agbd2","agbd3","agbd4", "agbd5","agbd6","agbd7","agbd8","agbd9","agbd10","agbd11","agbd12","agbd13","agbd14","agbd15","agbd16","agbd17","agbd18"],
+  "settings": [{
+    "id": "agstatus",
+    "name": "当前账号数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要抓取第几个账号的数据就填几"
+  }, {
+    "id": "agcount",
+    "name": "当前账号总数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要跑几个号就填几"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
+  }
+ ]
+}
